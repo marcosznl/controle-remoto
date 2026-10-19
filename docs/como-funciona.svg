@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="470" viewBox="0 0 920 470" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#143385"/>
+      <stop offset="1" stop-color="#0d2466"/>
+    </linearGradient>
+    <marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8fb4ff"/>
+    </marker>
+  </defs>
+
+  <rect width="920" height="470" rx="18" fill="url(#bg)"/>
+
+  <!-- Mac -->
+  <rect x="30" y="150" width="230" height="170" rx="14" fill="#08174a" stroke="#4589ff" stroke-width="1.5"/>
+  <text x="145" y="185" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">Mac</text>
+  <text x="145" y="208" text-anchor="middle" fill="#9eb3db" font-size="13">Controle Remoto</text>
+  <text x="145" y="226" text-anchor="middle" fill="#9eb3db" font-size="13">na barra de menus</text>
+  <rect x="55" y="245" width="180" height="56" rx="9" fill="#0f2a6e"/>
+  <text x="145" y="268" text-anchor="middle" fill="#ffad45" font-size="12" font-weight="600">tvs.json</text>
+  <text x="145" y="287" text-anchor="middle" fill="#9eb3db" font-size="11">TVs, pareamentos, favoritos</text>
+
+  <!-- Samsung -->
+  <rect x="560" y="30" width="330" height="190" rx="14" fill="#08174a" stroke="#4589ff" stroke-width="1.5"/>
+  <text x="580" y="62" fill="#ffffff" font-size="17" font-weight="700">Samsung (Tizen)</text>
+  <g font-size="13" fill="#dbe5ff">
+    <text x="580" y="92"><tspan fill="#4589ff" font-weight="700">WebSocket</tspan> wss :8002 · teclas, power</text>
+    <text x="580" y="117"><tspan fill="#4589ff" font-weight="700">REST</tspan> :8001 · abrir apps, app na tela,</text>
+    <text x="580" y="135">ligada ou em espera</text>
+    <text x="580" y="160"><tspan fill="#4589ff" font-weight="700">TV ao vivo</tspan> · lista de canais + Voltar</text>
+    <text x="580" y="185"><tspan fill="#4589ff" font-weight="700">Wake-on-LAN</tspan> · ligar</text>
+  </g>
+
+  <!-- LG -->
+  <rect x="560" y="245" width="330" height="190" rx="14" fill="#08174a" stroke="#4589ff" stroke-width="1.5"/>
+  <text x="580" y="277" fill="#ffffff" font-size="17" font-weight="700">LG (webOS)</text>
+  <g font-size="13" fill="#dbe5ff">
+    <text x="580" y="307"><tspan fill="#4589ff" font-weight="700">SSAP</tspan> wss :3001 · volume exato, mudo,</text>
+    <text x="580" y="325">canal na tela, apps, entradas, desligar</text>
+    <text x="580" y="350"><tspan fill="#4589ff" font-weight="700">Pointer socket</tspan> · setas, OK, touchpad</text>
+    <text x="580" y="375"><tspan fill="#4589ff" font-weight="700">Ícones</tspan> · servidos pela própria TV</text>
+    <text x="580" y="400"><tspan fill="#4589ff" font-weight="700">Wake-on-LAN</tspan> · ligar (MAC do Wi-Fi e do cabo)</text>
+  </g>
+
+  <!-- Ligações -->
+  <path d="M262,205 C400,205 420,125 556,125" fill="none" stroke="#8fb4ff" stroke-width="2" marker-end="url(#seta)"/>
+  <path d="M262,265 C400,265 420,340 556,340" fill="none" stroke="#8fb4ff" stroke-width="2" marker-end="url(#seta)"/>
+
+  <!-- Descoberta -->
+  <rect x="300" y="196" width="220" height="78" rx="12" fill="#0f2a6e" stroke="#ffad45" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="410" y="220" text-anchor="middle" fill="#ffad45" font-size="13" font-weight="700">Rede local, sem nuvem</text>
+  <text x="410" y="241" text-anchor="middle" fill="#dbe5ff" font-size="12">SSDP acha as TVs; IP novo?</text>
+  <text x="410" y="259" text-anchor="middle" fill="#dbe5ff" font-size="12">procura de novo e varre a rede</text>
+</svg>
