@@ -10,6 +10,11 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/marcosznl/controle-remoto/releases/latest"><b>⬇︎ Baixar o DMG</b></a>
+  &nbsp;·&nbsp; macOS 14 Sonoma ou mais novo &nbsp;·&nbsp; Apple Silicon &nbsp;·&nbsp; 1,6 MB
+</p>
+
+<p align="center">
   <img src="docs/painel.png" width="720" alt="Painel do Controle Remoto aberto embaixo do ícone na barra de menus">
 </p>
 
@@ -81,6 +86,14 @@ Testado numa Samsung BU8000 (2022):
 
 ## Instalar
 
+1. Baixe o `.dmg` na [página de releases](https://github.com/marcosznl/controle-remoto/releases/latest),
+   abra e arraste o Controle Remoto para **Aplicativos**.
+2. O app não é notarizado pela Apple, então o macOS bloqueia na primeira vez. No macOS 14,
+   clique com o botão direito no app → **Abrir**. No macOS 15 ou mais novo, tente abrir e
+   depois vá em Ajustes do Sistema → Privacidade e Segurança → **Abrir Mesmo Assim**.
+
+### Compilar
+
 Precisa do macOS 14 ou mais novo e das Command Line Tools (`xcode-select --install`). O Xcode
 completo não é necessário.
 
@@ -96,8 +109,6 @@ Development, se houver; senão ad-hoc), copia para `~/Applications` e abre.
 Na primeira vez:
 1. O macOS pede acesso à **Rede Local**: permita (é como o app acha e controla as TVs).
 2. Cada TV mostra um pedido de permissão: aceite com o controle da TV.
-3. Se o app foi compilado em outro Mac, o macOS bloqueia a primeira abertura: clique com o botão
-   direito no app › **Abrir**.
 
 ### Ajustes nas TVs
 
